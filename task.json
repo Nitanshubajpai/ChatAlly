@@ -1,0 +1,229 @@
+{
+	"intents": [
+		{
+			"tag": "greeting",
+			"patterns": [
+				"Hi there",
+				"How are you",
+				"Is anyone there?",
+				"Hey",
+				"Hola",
+				"Hello",
+				"Good day",
+				"Hey",
+				"Ekse",
+				"Hi"
+			],
+			"responses": [
+				"Hi stranger",
+				"Yebo yes, how can I help",
+				"Ey watsupp",
+				"Ekse Hoezit",
+				"Hola",
+				"Hey dude",
+				"You again"
+			]
+		},
+		{
+			"tag": "goodbye",
+			"patterns": [
+				"Bye",
+				"See you later",
+				"Goodbye",
+				"Ok bye",
+				"Bye Bye"
+			],
+			"responses": [
+				"See you!",
+				"Have a nice day",
+				"Sure Bye",
+				"Later dude",
+				"Sayoonara",
+				"Peace out",
+				"Sure dude",
+				"Ciao"
+			]
+		},
+		{
+			"tag": "thanks",
+			"patterns": [
+				"Thanks",
+				"Thank you",
+				"That's helpful",
+				"Awesome, thanks",
+				"Thanks for helping me"
+			],
+			"responses": [
+				"Happy to help!",
+				"Any time!",
+				"My pleasure",
+				"You are welcome",
+				"Sure dude"
+			]
+		},
+		{
+			"tag": "name",
+			"patterns": [
+				"What is your name",
+				"Whats your name",
+				"Tell me your name",
+				"Who are you",
+				"Ungubani",
+				"Tell me about yourself",
+				"You are"
+			],
+			"responses": [
+				"I am ChatAlly",
+				"My name is ChatAlly",
+				"You can call me Ally",
+				"I am ChatAlly, my friends call me Ally",
+				"ChatAlly is my name"
+			]
+		},
+		{
+			"tag": "options",
+			"patterns": [
+				"What do you do",
+				"How can you help",
+				"What do you know",
+				"What is your purpose",
+				"How can you help"
+			],
+			"responses": [
+				"I can tell you about South Africa",
+				"I can give you interesting facts about South Africa",
+				"I can tell you about India",
+				"I can give you interesting facts about India",
+				"I can give you a fact about India"
+			]
+		},
+		{
+			"tag": "bored",
+			"patterns": [
+				"I'm bored",
+				"I am bored",
+				"Suggest me something",
+				"I'm bored. Can you help"
+			],
+			"responses": [
+				"Do you like music",
+				"Should I recommend you a song",
+				"Do you want to listen to songs",
+				"Should I recommend you a movie",
+				"Do you want to watch a movie",
+				"You should watch a movie",
+				"Listen to some songs"
+			]
+		},
+		{
+			"tag": "song",
+			"patterns": [
+				"Share a song",
+				"Recommend me some songs",
+				"I love music",
+				"Recommend me a song I should listen to",
+				"Suggest another song",
+				"Recommend another song",
+				"Suggest a song"
+			],
+			"responses": [
+				"Listen to Wicked Games by Weeknd",
+				"Give a listen to Beautiful by Eminem",
+				"Shayar by Talhah Yunus is a beautiful song",
+				"Wish You Were Here is a classic by Pink Floyd. Stream It",
+				"Listen to Punya Paap by Divine"
+			]
+		},
+		{
+			"tag": "movie",
+			"patterns": [
+				"Share a movie",
+				"Recommend me a movie",
+				"I would watch a movie",
+				"Suggest a movie",
+				"Suggest another movie",
+				"Recommend another movie"
+			],
+			"responses": [
+				"You should watch the great classic The Shawsank Redemption. It is the highest rated movie on IMDb",
+				"Gerald's Game is a 2017 American psychological horror thriller. You can watch it if you like psychological thriller",
+				"Give a watch to Masaan staring Vicky Kaushal",
+				"A Death in the Gunj is one of the best underrated movie. Go watch it you are doing nothing."
+			]
+		},
+		{
+			"tag": "south_africa_facts",
+			"patterns": [
+				"South Africa Facts",
+				"SA Facts",
+				"Give me some facts about SA",
+				"Give me some facts about South Africa",
+				"SA Facts",
+				"SA interesting facts",
+				"South Africa facts",
+				"South Africa interesting facts"
+			],
+			"responses": [
+				"South Africa is now the only country in the world to have hosted the Soccer, Cricket and Rugby World Cup!",
+				"Table Mountain in Cape Town is believed to be one of the oldest mountains in the world and one of the planet’s 12 main energy centres, radiating magnetic, electric or spiritual energy.",
+				"The Cape Floral Kingdom is one of the world’s six floral kingdoms – and the only one which is wholly contained within a single country.",
+				"Some countries have deserts; some have subtropical forests, right? South Africa has: deserts, wetlands, grasslands, bush, subtropical forests, mountains and escarpments.",
+				"South Africa’s drinking water is rated 3rd best in the world for being safe and ready to drink.",
+				"Water is not all there is to drink in this thirsty country! South Africa’s Cape Winelands have around 560 wineries and 4 400 primary producers. Included in the Cape Winelands region is Route 62, considered the longest wine route in the world. That alone is good reason to visit South Africa if you haven’t yet been!",
+				"What about beer? South African brewery SABMiller ranks – by volume – as the largest brewing company in the world. Saffers love their beer…but the real reason the brewery is so big? SABMiller also supplies up to 50% of China’s beer.",
+				"South Africa is the only country in the entire world that has voluntarily abandoned its nuclear weapons programme.",
+				"The world’s largest themed resort hotel in the world – The Palace of the Lost City – is found in South Africa. Surrounding the Palace is a 25 hectare manmade botanical jungle with almost 2 million plants, trees and shrubs.",
+				"South Africa is extremely rich in mining and minerals and considered the world’s leader with nearly 90% of all the platinum metals on earth and around 41% of all the world’s Gold!",
+				"South Africa is home to the oldest meteor scar in the world – the Vredefort Dome in a town called Parys. The site is a UNESCO World Heritage Site.",
+				"The South African Rovos Rail is considered the most luxurious train in the world.",
+				"South Africa is home to the highest commercial bungi jump in the world at 710 feet.",
+				"General Motors South Africa is the only place outside of the USA to build the Hummer H3!",
+				"Despite the country’s status as a democratic republic, the Province of KwaZulu-Natal has a monarchy, specially provided for by the Constitution. Goodwill Zwelithini kaBhekuzulu is the King of the Zulu Nation, has 27 kids and 6 wives and lives, literally, like a King!",
+				"There are more than 2000 shipwrecks off the South African coast, most dating back at least 500 years.",
+				"The oldest remains of modern humans were found in South Africa and are well over 160,000 years old.",
+				"The Karoo region in the Western Cape is home to some of the best fossils of early dinosaurs. In fact, it is estimated that some 80% of the mammalian fossils found to date were found in the Karoo.",
+				"SA has three capital cities: Pretoria is the Executive Capital, Cape Town the Legislative Capital and Bloemfontein the judicial Capital.",
+				"Can you think of any other place in the world where two Nobel Peace Prize winners lived on the same street? Both Nelson Mandela and Archbishop Desmond Tutu had houses on Vilakazi Street in Soweto"
+			]
+		},
+		{
+			"tag": "india_info",
+			"patterns": [
+				"India",
+				"What can you tell me about IN",
+				"IN",
+				"Tell me about IN",
+				"What about IN",
+				"What do you know about IN",
+				"Tell me more about IN",
+				"What can you tell me about IN",
+				"Tell me about India",
+				"What about India",
+				"What do you know about India",
+				"Tell me more about India"
+			],
+			"responses": [
+				"According to the Oxford English Dictionary, the name India is derived from the Classical Latin India, a reference to South Asia and an uncertain region to its east; and in turn derived successively from: Hellenistic Greek India ( Ἰνδία); ancient Greek Indos ( Ἰνδός); Old Persian Hindush, an eastern province of the Achaemenid empire; and ultimately its cognate, the Sanskrit Sindhu, or river, specifically the Indus river and, by implication, its well-settled southern basin.[61][62] The ancient Greeks referred to the Indians as Indoi (Ἰνδοί), which translates as 'The people of the Indus'."
+			]
+		},
+		{
+			"tag": "india_facts",
+			"patterns": [
+				"India Facts",
+				"IN Facts",
+				"Give me some facts about IN",
+				"Give me some facts about India",
+				"IN Facts",
+				"IN interesting facts",
+				"India facts",
+				"India interesting facts"
+			],
+			"responses": [
+				"The original Indian Plate survives as peninsular India, the oldest and geologically most stable part of India. It extends as far north as the Satpura and Vindhya ranges in central India. These parallel chains run from the Arabian Sea coast in Gujarat in the west to the coal-rich Chota Nagpur Plateau in Jharkhand in the east",
+				"India's coastline measures 7,517 kilometres (4,700 mi) in length; of this distance, 5,423 kilometres (3,400 mi) belong to peninsular India and 2,094 kilometres (1,300 mi) to the Andaman, Nicobar, and Lakshadweep island chains.",
+				"The Indian climate is strongly influenced by the Himalayas and the Thar Desert, both of which drive the economically and culturally pivotal summer and winter monsoons.",
+				"India is a federation with a parliamentary system governed under the Constitution of India—the country's supreme legal document."
+			]
+		}
+	]
+}

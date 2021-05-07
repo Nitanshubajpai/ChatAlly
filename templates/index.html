@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <div class='chatbox'>
+    <div class='chat__header'><img src='./static/images/chatbot.png'>
+      <h1>Chatbot</h1>
+    </div>
+    <div class='chat__messages' id='scroll'>
+    </div>
+    <div class='inpt'>
+      <input type='text' placeholder='Type Something....' id='textInput'>
+      <button class='btn' id='submit'></button>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+
+
+  <script>
+
+
+    jQuery( document ).ready( function ()
+    {
+
+      function getBotResponse()
+      {
+        $.ajax( {
+          type: "POST",
+          url: "/chatbot",
+          data: {
+            question: $( "#textInput" ).val()
+          },
+          success: function ( result )
+          {
+            $( '.chat__messages' ).append( "<div class='user'> <p>" + $( "#textInput" ).val() + "</p> <img class='img' src='./static/images/user.png'></div><div class='ally'><img class='img' src='./static/images/chatbot.png'><p>" + result.response + "</p></div>" )
+            $( '#textInput' ).val( '' );
+            $( "#scroll" ).animate( {
+              scrollTop: $(
+                '#scroll' ).get( 0 ).scrollHeight
+            }, 1700 );
+            console.log( result )
+          },
+          error: function ( result )
+          {
+            alert( "Unfortuanety there is some error with ChatBot" );
+            console.log( result )
+          }
+        } )
+      }
+
+      $( '#textInput' ).keypress( function ( e )
+      {
+        if ( e.which == 13 )
+        {
+          getBotResponse()
+        }
+      } )
+      $( '#submit' ).click( function ()
+      {
+        getBotResponse()
+      } )
+    } )
+  </script>
+
+</body>
+
+</html>
