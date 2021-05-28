@@ -6,7 +6,10 @@ To get started follow the steps below:
 1. Install a virtual environment by runnning the following
 ```
 virtualenv chatbotenv
+For MAC/Linux:
 source chatbotenv/bin/activate
+for Windows:
+.\chatbotenv\bin]activate
 ```
 
 2. Install all the required libraries 
