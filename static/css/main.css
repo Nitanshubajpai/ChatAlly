@@ -1,9 +1,10 @@
 .chatbox {
-	background-color: rgb(141, 243, 213);
-	width: 400px;
-	margin: auto;
-	padding: 10px;
-	border-radius: 30px;
+    background-image: url(../images/background.png);
+    width: 375px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 40px;
+    height: 630px;
 }
 
 .img {
@@ -12,12 +13,19 @@
 }
 
 .chat__messages {
-	background-color: rgb(95 99 107);
-	height: 440px;
-	overflow-y: scroll;
-	padding: 10px;
-	background-size: contain;
-	background-image: url('../images/chatbot.png');
+	background-color: rgb(39 48 66 / 94%);
+    height: 465px;
+    width: 105%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-left: -10px;
+    overflow-y: scroll;
+    padding: 10px;
+    background-size: contain;
+}
+
+.chat__messages::-webkit-scrollbar {
+    display: none;
 }
 
 .user,
@@ -27,26 +35,28 @@
 }
 
 .ally p {
-	max-width: 150px;
-	background-color: rgb(168, 0, 184);
+	max-width: 180px;
+	background-color: #e2c5c5;
 	padding: 4px 10px 4px 10px;
 	text-align: left;
-	color: white;
+    color: #0c0c0c;
+	
+    font-weight: 500;
 	margin-right: auto;
 	border-radius: 20px;
-	box-shadow: 5px 5px 5px #aaaaaa
+    box-shadow: 0px 0px 8px #aaaaaa;
 }
 
 .user p {
-	max-width: 13sss0px;
-	background-color: red;
-	padding: 4px 10px 4px 10px;
-	text-align: left;
-	color: white;
-	margin-left: auto;
-	border-radius: 20px;
-	box-shadow: 5px 5px 5px #aaaaaa;
-	min-height: 18px;
+	background-color: #e2c5c5;
+    padding: 4px 10px 4px 10px;
+    text-align: left;
+    color: #0c0c0c;
+    font-weight: 500;
+    margin-left: auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px #aaaaaa;
+    min-height: 18px;
 }
 
 
@@ -91,9 +101,13 @@
 
 .chat__header {
 	display: flex;
-	align-items: center;
-	margin: auto;
-	justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 2rem;
+	margin-bottom: 1rem;
+    font-size: 14px;
+    font-weight: 600;
+    justify-content: left;
 }
 
 .chat__header h1 {
@@ -106,9 +120,9 @@
 }
 
 .chat__header img {
-	width: 50px;
-	margin: 0px 10px;
-	height: 50px;
+	width: 40px;
+    margin: 0px 14px;
+    height: 40px;
 }
 
 a {
